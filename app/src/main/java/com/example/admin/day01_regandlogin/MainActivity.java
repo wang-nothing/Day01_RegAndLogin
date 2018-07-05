@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                                     LoginBean loginBean = new Gson().fromJson(json, LoginBean.class);
                                     if("0".equalsIgnoreCase(loginBean.getCode())){
                                         Toast.makeText(MainActivity.this,"成功",Toast.LENGTH_SHORT).show();
+                                        //阿斯顿撒旦撒
                                     }
                                 }
                             }
